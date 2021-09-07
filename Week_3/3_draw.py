@@ -9,7 +9,8 @@ blank[:]=0,255,0 #green
 blank[200:300,300:400]=255,0,0 #smaller blue square
 #cv2.imshow('Blue',blank)
 
-cv2.rectangle(blank,(0,0),(250,250),(0,0,255),thickness=cv2.FILLED)
+#cv2.rectangle(blank,(0,0),(250,250),(0,0,255),thickness=cv2.FILLED)
+cv2.rectangle(blank,(0,0),(250,250),(0,0,255),thickness=20)
 #cv2.FILLED fills in your shape
 #thickness=-1 also works
 cv2.imshow('Rectangle',blank)
