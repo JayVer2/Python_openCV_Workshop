@@ -2,12 +2,12 @@ import cv2 as cv
 import numpy
 
 
-img = cv.imread('stock-photo.jpg')
+img = cv.imread('Images/stock-photo.jpg')
 cv.imshow('Stock Photo', img)
 
 
 
-capture = cv.VideoCapture('fire.mp4')
+capture = cv.VideoCapture('Images/fire.mp4')
 
 
 while True:

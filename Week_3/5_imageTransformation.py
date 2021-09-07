@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-img =cv2.imread('park.jpg')
+img =cv2.imread('Images/park.jpg')
 
 cv2.imshow('Park',img)
 

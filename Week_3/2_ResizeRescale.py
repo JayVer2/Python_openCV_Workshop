@@ -18,12 +18,12 @@ def ChangeRes(width,height):
 
 
 #Read and rescale image
-img = cv2.imread('stock-photo.jpg')
+img = cv2.imread('Images/stock-photo.jpg')
 rescale_img = rescaleFrame(img)
 cv2.imshow('Stock Photo', rescale_img)
 
 #Read vid
-capture = cv2.VideoCapture('fire.mp4')
+capture = cv2.VideoCapture('Images/fire.mp4')
 
 
 

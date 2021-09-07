@@ -1,7 +1,7 @@
 
 import cv2
 #Read img
-img = cv2.imread('stock-photo.jpg')
+img = cv2.imread('Images/stock-photo.jpg')
 #cv2.imshow('Cat', img)
 
 #Greyscale function
